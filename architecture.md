@@ -1,12 +1,15 @@
 ShieldFi Architecture
 System Overview
+
 ShieldFi is a parametric on-chain protection protocol designed to provide automated coverage against security risks in decentralized finance.
 The protocol integrates off-chain risk intelligence with on-chain smart contracts, enabling automated policy issuance, real-time risk monitoring, and instant claim payouts.
+
 ShieldFi’s architecture consists of four core components:
 Risk Oracle
 Policy NFT Contract
 Parametric Trigger Engine
 Coverage Pool
+
 Together, these modules create a fully automated protection system that removes the need for manual claims processing.
 
 High-Level Architecture
@@ -50,9 +53,10 @@ Provide risk data to smart contracts
 Enable real-time parametric triggers
 
 Maintain verifiable on-chain security intelligence
-Example Oracle Interface
-updateRiskScore(address wallet, uint256 score)
 
+Example Oracle Interface
+
+updateRiskScore(address wallet, uint256 score)
 getRiskScore(address wallet)
 
 Policy NFT Contract
@@ -60,8 +64,11 @@ Policy NFT Contract
 Insurance policies within ShieldFi are represented as non-fungible tokens (NFTs).
 Each NFT represents an active coverage policy and contains the parameters associated with that protection agreement.
 This approach ensures transparency, portability, and composability within the broader DeFi ecosystem.
+
 Policy Data Structure
+
 Each policy NFT contains:
+
 Policy holder address
 Coverage amount
 Premium paid
@@ -72,10 +79,14 @@ Transparent ownership
 Tradable coverage policies
 On-chain policy verification
 DeFi composability
+
 Parametric Trigger Engine
+
 The Trigger Engine monitors risk conditions and executes automated payouts when predefined thresholds are reached.
 Instead of manual claim verification, ShieldFi relies on parametric triggers, which evaluate objective data points such as risk scores or exploit detection.
+
 Example Trigger Conditions
+
 Wallet risk score exceeding threshold
 Protocol exploit detection
 Critical protocol risk escalation
@@ -121,14 +132,19 @@ Coverage Pool executes payout
 Security Model
 
 ShieldFi combines off-chain intelligence and on-chain verification to maintain system integrity.
+
 Security principles include:
+
 On-chain transparency
 deterministic trigger logic
 modular contract design
 verifiable risk data inputs
 Future iterations may incorporate decentralized oracle networks similar to those used by protocols such as Chainlink.
+
 Future Architecture Extensions
+
 The ShieldFi protocol is designed to evolve with additional modules, including:
+
 cross-chain risk intelligence
 institutional coverage markets
 decentralized governance
@@ -136,6 +152,7 @@ reinsurance liquidity pools
 
 
 protocol risk guard integrations
+
 These components will expand ShieldFi into a comprehensive risk infrastructure layer for decentralized finance.
 Smart Contract Modules (MVP)
 The initial implementation includes the following smart contracts:
