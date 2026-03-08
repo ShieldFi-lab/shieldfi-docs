@@ -80,6 +80,7 @@ Example API response:
 
 This allows protocols to act preemptively rather than reactively.
 ShieldFi Architecture
+
 ## ShieldFi Architecture
 
 ```mermaid
