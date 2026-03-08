@@ -1,30 +1,12 @@
 # ShieldFi
 
-ShieldFi is a multi-chain risk intelligence layer for Web3 designed to detect malicious wallets, identify exploit-linked clusters, and provide parametric smart contract protection for decentralized protocols.
+The Risk Intelligence Layer for Web3.
 
-## Overview
+ShieldFi is an open risk-scoring protocol that allows wallets, dApps, and DeFi platforms to detect scam, phishing, and sanctioned wallets before transactions occur.
 
-As decentralized finance grows, protocols face increasing threats from smart contract exploits, malicious wallet networks, and fraudulent transactions. Most security tools operate reactively, detecting incidents after they occur.
+Core Components
 
-ShieldFi introduces proactive risk intelligence that allows protocols to evaluate wallet risk before transactions execute.
-
-## Core Features
-
-- Wallet Risk Scoring (Shield Score)
-- Wallet Cluster Intelligence
-- Multi-chain Support
-- Parametric Smart Contract Protection
-- Developer API for real-time risk queries
-
-## Documentation
-
-- Litepaper: `litepaper.md`
-- Architecture: `architecture.md`
-
-## Vision
-
-ShieldFi aims to become the universal risk intelligence infrastructure layer for decentralized systems.
-
----
-
-© 2026 ShieldFi. Created by Cipher.
+shieldfi-risk-engine → wallet risk scoring engine
+shieldfi-api → API for wallets and dApps
+shieldfi-core → protocol infrastructure
+shieldfi-docs → litepaper and architecture
