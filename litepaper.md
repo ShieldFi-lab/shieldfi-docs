@@ -79,14 +79,22 @@ Example API response:
 }
 
 This allows protocols to act preemptively rather than reactively.
+
 ShieldFi Architecture
 
 ShieldFi consists of:
-Blockchain Data Layer: Collects transactions and wallet activity across major networks.
-Cluster & Behavior Engine: Groups wallets into clusters and detects suspicious patterns.
-Scoring Engine: Generates Shield Scores (0–100) and recommendations.
-Developer API Layer: Provides real-time access for protocols to query wallet and cluster risk.
-Parametric Protection Layer: Implements automated responses based on risk scores.
+
+Blockchain Data Layer:
+Collects transactions and wallet activity across major networks.
+Cluster & Behavior Engine:
+ Groups wallets into clusters and detects suspicious patterns.
+Scoring Engine: 
+Generates Shield Scores (0–100) and recommendations.
+Developer API Layer: 
+Provides real-time access for protocols to query wallet and cluster risk.
+Parametric Protection Layer: 
+Implements automated responses based on risk scores.
+
 (See Figure 1: ShieldFi Architecture Diagram)
 Use Cases
 DeFi Protocol Protection: Evaluate wallet and cluster risk before swaps, deposits, or withdrawals.
