@@ -56,3 +56,53 @@ Trigger: proxy implementation address changes
 
 Event: Self-destruct executed  
 Trigger: smart contract selfdestruct() called
+
+---
+
+## Example Historical Events
+
+These events demonstrate why measurable on-chain triggers are important for automated protection systems.
+
+- Ronin Bridge Hack (2022) – >$600M drained from the bridge contract.
+- Euler Finance Hack (2023) – >$190M drained through a flash loan exploit.
+- TerraUSD Depeg (2022) – algorithmic stablecoin lost its $1 peg and collapsed.
+
+These incidents highlight the need for automatic detection of abnormal liquidity movements, price deviations, and rapid TVL losses.
+
+---
+
+## Trigger Reliability Considerations
+
+Parametric triggers must be carefully designed to avoid false positives or manipulation.
+
+Key considerations:
+
+- Triggers should rely on multiple data sources where possible.
+- Price triggers should compare oracle feeds and DEX TWAP prices.
+- Liquidity events should be measured over several blocks to avoid flash loan distortions.
+- Emergency protocol actions such as contract pauses may be used as confirmation signals.
+
+---
+
+## Potential Data Sources
+
+ShieldFi triggers may rely on several on-chain and oracle data sources:
+
+- Chainlink price feeds
+- DEX TWAP price data
+- Protocol TVL measurements
+- Liquidity pool reserve balances
+- Smart contract events (pause, upgrade, emergency functions)
+
+---
+
+## Future Research
+
+Further work is required to refine trigger thresholds and test them against historical exploit data.
+
+Areas of focus:
+
+- backtesting triggers against past exploits
+- identifying manipulation-resistant thresholds
+- integrating multi-oracle validation
+- designing automated payout mechanisms
