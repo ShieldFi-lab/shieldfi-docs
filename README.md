@@ -10,3 +10,11 @@ shieldfi-risk-engine → wallet risk scoring engine
 shieldfi-api → API for wallets and dApps
 shieldfi-core → protocol infrastructure
 shieldfi-docs → litepaper and architecture
+
+## Documentation
+
+- Litepaper
+- Architecture
+- Parametric Triggers
+- Policy NFT Structure
+- Community Engagement Plan
