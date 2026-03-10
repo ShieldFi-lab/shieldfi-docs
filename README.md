@@ -1,20 +1,40 @@
-# ShieldFi
+## Repository Structure
 
-The Risk Intelligence Layer for Web3.
+ShieldFi is organized into research, architecture documentation, and protocol design files.
 
-ShieldFi is an open risk-scoring protocol that allows wallets, dApps, and DeFi platforms to detect scam, phishing, and sanctioned wallets before transactions occur.
+### Core Documentation
 
-Core Components
+- litepaper.md — ShieldFi protocol vision and high-level design
+- architecture.md — System architecture overview
+- smart-contract-architecture.md — Smart contract structure and interactions
+- api_reference.md — Backend and API design
 
-shieldfi-risk-engine → wallet risk scoring engine
-shieldfi-api → API for wallets and dApps
-shieldfi-core → protocol infrastructure
-shieldfi-docs → litepaper and architecture
+### Protocol Design
 
-## Documentation
+- policy-nft-structure.md — Structure of ShieldFi coverage policy NFTs
+- parametric-trigger-research.md — Research on measurable on-chain trigger events
+- risk_model.md — Wallet and protocol risk scoring model
 
-- Litepaper
-- Architecture
-- Parametric Triggers
-- Policy NFT Structure
-- Community Engagement Plan
+### Product Design
+
+- landing-page-wireframe.md — Initial ShieldFi landing page structure
+
+### Community
+
+- community-engagement-plan.md — Early community building strategy
+
+### Research & Content
+
+/content
+
+Contains research notes, social threads, and educational material about DeFi protection.
+
+### Token Economics
+
+/economics
+
+Contains protocol revenue models, premium structure, and liquidity provider yield models.
+
+### Contribution
+
+CONTRIBUTING.md explains how developers and researchers can contribute to the project.
