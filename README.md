@@ -38,3 +38,7 @@ Contains protocol revenue models, premium structure, and liquidity provider yiel
 ### Contribution
 
 CONTRIBUTING.md explains how developers and researchers can contribute to the project.
+
+
+Current Status: Phase 2 - MVP Development
+Next Milestone: Testnet Deployment
