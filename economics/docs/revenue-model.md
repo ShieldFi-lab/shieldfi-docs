@@ -1,5 +1,7 @@
 ShieldFi Revenue Model
+
 ShieldFi generates revenue from multiple sources across the decentralized protection ecosystem.
+
 The protocol is designed to serve retail users, DeFi protocols, and institutional partners.
 
 1️⃣ Insurance Premiums (Primary Revenue)
@@ -37,6 +39,7 @@ Liquidity health score
 
 
 Possible users:
+
 • DeFi dashboards
 • exchanges
 • crypto lenders
@@ -86,7 +89,9 @@ Customer takes a loan against crypto collateral.
 ShieldFi can provide:
 
 Wallet exploit protection
+
 Collateral depeg protection
+
 Smart contract risk monitoring
 
 Revenue model:
