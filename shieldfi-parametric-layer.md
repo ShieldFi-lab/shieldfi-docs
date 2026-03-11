@@ -2,6 +2,9 @@
 
 This diagram shows how ShieldFi delivers **real-time, automated DeFi coverage**:
 
+---
+
+
 ┌───────────────────────────┐
  │       User Wallets        │
  │  (holds PolicyNFTs & LP) │
